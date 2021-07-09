@@ -106,7 +106,7 @@ final class MyPDO
 /* Exemple de configuration et d'utilisation
 require_once 'MyPDO.template.class.php';
 
-MyPDO::setConfiguration('mysql:host=mysql;dbname=cutron01_music;charset=utf8', 'web', 'web');
+MyPDO::setConfiguration('mysql:host=mysql;dbname=DBNAME;charset=utf8', 'USERNAME', 'PASSWORD');
 
 $stmt = MyPDO::getInstance()->prepare(<<<SQL
     SELECT id, name
