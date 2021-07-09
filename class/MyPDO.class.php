@@ -1,4 +1,4 @@
 <?php
    require_once 'MyPDO.template.class.php';
 
-   MyPDO::setConfiguration('mysql:host=mysql;dbname=blet0001;charset=utf8', 'blet0001', 'azerty01');
+   MyPDO::setConfiguration('mysql:host=mysql;dbname=DB_NAME;charset=utf8', 'USERNAME', 'PASSWORD');
